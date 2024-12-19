@@ -8,7 +8,9 @@
 header {
   width: 100%;
   height: 50px;
-  position: relative;
+  position: fixed;
+  top: 0;
+  background-color: #fff;
 }
 
 header div {
@@ -48,13 +50,15 @@ header .nav {
   color: #8593ff;
 }
 
+/* section one start */
 .section1 {
   background-color: #f9f9ff;
   width: 100%;
-  height: 750px;
+  height: 665px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 75px;
 }
 
 .me,
@@ -69,6 +73,7 @@ header .nav {
 
 .my-img1 {
   margin-right: 160px;
+  margin-top: 50px;
 }
 
 .my-img1 img {
@@ -105,3 +110,150 @@ header .nav {
   box-shadow: 5px 10px 30px rgba(132, 132, 234, 0.6);
   transition: all 0.5s ease-in;
 }
+/* section one end */
+
+/* section two start */
+.section2 {
+  width: 100%;
+  height: 620px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section2 div {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.section2 div img {
+  width: 90%;
+}
+
+.section2 .img2 {
+  padding-left: 150px;
+}
+
+.text2 * {
+  margin: 20px 0;
+}
+
+.text2 h3 {
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 15px;
+}
+
+.text2 h1 {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.text2 p {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+  width: 70%;
+}
+
+.text2 input {
+  font-size: 20px;
+  padding: 12px 16px;
+  outline: none;
+  color: #fff;
+  background-color: #8293ff;
+  border: none;
+  border-radius: 5px;
+}
+
+.text2 input:hover {
+  box-shadow: 5px 10px 30px rgba(132, 132, 234, 0.6);
+  transition: all 0.5s ease-in;
+}
+/* section two end */
+/* section three start */
+.section3 {
+  width: 100%;
+  height: 650px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.services-text h1 {
+  font-size: 40px;
+}
+
+.services-text p {
+  width: 670px;
+  margin: 20px auto;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.services {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.ser {
+  margin: 45px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.ser * {
+  margin: 15px 15px;
+}
+
+.ser div {
+  width: 32%;
+  float: left;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+.services i {
+  font-size: 45px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.services h3 {
+  font-size: 35px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.services p {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.ser div:hover {
+  background-color: #8293ff;
+  border-radius: 5px;
+}
+
+.ser div:hover i {
+  color: white;
+}
+.ser div:hover h3 {
+  color: white;
+}
+.ser div:hover p {
+  color: white;
+}
+
+.section4 {
+  width: 100%;
+  height: 200px;
+  background-color: #8293ff;
+  color: white;
+  margin-top: 50px;
+}
+
+.section4 div {
+  float: left;
+  width: 20%;
+  margin: 0 auto;
+  position: relative;
+  top: 100px;
+  left: 215px;
+}
+/* section three end */
