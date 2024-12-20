@@ -324,7 +324,7 @@ header .nav {
 .section6 {
   width: 100%;
   height: auto;
-  margin-top: 80px;
+  margin: 80px auto;
 }
 
 .section6-head {
@@ -343,16 +343,99 @@ header .nav {
 
 .section6-body {
   background-color: #f9f9ff;
-  padding: 30px;
   width: 75%;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   text-align: center;
+  padding: 20px 50px;
+  border-radius: 3%;
+}
+
+.plan * {
+  margin: 20px auto;
+}
+
+.plan p {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.plan {
+  margin: 10px 5px;
+  width: 300px;
+  height: 550px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 10px 15px;
 }
 
 .plan h1 {
-  font-size: 40px;
+  font-size: 50px;
+  padding-top: 8px;
 }
 
+.plan input {
+  outline: none;
+  background-color: #8293ff;
+  border: 1px solid white;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.plan:hover {
+  background-color: #8293ff;
+  color: white;
+  transition: all 0.25s ease-in;
+  transform: scale(1.05);
+  border: rgba(130, 147, 255 0.5);
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.plan:hover * {
+  color: #fff;
+}
 /* section six end */
+
+/* footer start */
+footer {
+  background-color: rgb(4, 9, 30);
+  width: 100%;
+  color: #fff;
+  position: absolute;
+  padding-top: 20px;
+}
+
+.foot * {
+  margin: 10px auto;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-around;
+}
+
+.foot1 {
+  max-width: 30%;
+}
+
+.foot1 input {
+  padding: 5px 20px 5px 5px;
+}
+.foot1 button {
+  margin-left: -5px;
+  padding: 6px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  font-weight: bold;
+}
+
+.foot1 i {
+  margin: 0 5px;
+}
+/* footer end */
